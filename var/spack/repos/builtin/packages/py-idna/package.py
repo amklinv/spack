@@ -32,6 +32,7 @@ class PyIdna(PythonPackage):
     homepage = "https://github.com/kjd/idna"
     url      = "https://pypi.io/packages/source/i/idna/idna-2.5.tar.gz"
 
+    version('2.6', 'c706e2790b016bd0ed4edd2d4ba4d147')
     version('2.5', 'fc1d992bef73e8824db411bb5d21f012')
 
     depends_on('py-setuptools', type=('build', 'link'))

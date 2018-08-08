@@ -32,6 +32,7 @@ class PyCython(PythonPackage):
 
     version('0.28.3', '586f0eb70ba1fcc34334e9e10c5e68c0')
     version('0.28.1', 'c549effadb52d90bdcb1affc1e5dbb97')
+    version('0.27.1', 'b93750b34382b025d678bea819b7491b')
     version('0.25.2', '642c81285e1bb833b14ab3f439964086')
     version('0.23.5', '66b62989a67c55af016c916da36e7514')
     version('0.23.4', '157df1f69bcec6b56fd97e0f2e057f6e')

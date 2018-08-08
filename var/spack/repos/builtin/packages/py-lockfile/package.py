@@ -39,6 +39,7 @@ class PyLockfile(PythonPackage):
     homepage = "https://pypi.python.org/pypi/lockfile"
     url      = "https://pypi.io/packages/source/l/lockfile/lockfile-0.10.2.tar.gz"
 
+    version('0.12.2', 'a6a1a82957a23afdf44cfdd039b65ff9')
     version('0.10.2', '1aa6175a6d57f082cd12e7ac6102ab15')
 
     depends_on("py-setuptools", type='build')

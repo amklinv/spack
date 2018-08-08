@@ -31,6 +31,7 @@ class PyBackportsAbc(PythonPackage):
     homepage = "https://github.com/cython/backports_abc"
     url      = "https://github.com/cython/backports_abc/archive/0.4.tar.gz"
 
+    version('0.5', '91c000d7f18066f428b015caf5308ca34d492f77')
     version('0.4', 'e4246ae689221c9cbe84369fdb59e8c74d02b298')
 
     depends_on('py-setuptools', type='build')

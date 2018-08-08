@@ -31,6 +31,7 @@ class PyIpywidgets(PythonPackage):
     homepage = "https://github.com/ipython/ipywidgets"
     url      = "https://github.com/ipython/ipywidgets/archive/5.2.2.tar.gz"
 
+    version('7.0.1', 'e6b754af4636b3bcc88134724d7ecbfd')
     version('5.2.2', '112f3daa4aa0f42f8dda831cea3649c8')
 
     depends_on('python@2.7:2.8,3.3:')

@@ -34,6 +34,7 @@ class PyCertifi(PythonPackage):
 
     import_modules = ['certifi']
 
+    version('2017.7.27.1', '48e8370da8b370a16e223ee9c7b6b063')
     version('2017.1.23',  'b72521a8badff5e89a8eabea586d79ab')
     version('2016.02.28', '5ccfc23bd5e931863f0b01ef3e9d2dbd3bef0e1b')
 

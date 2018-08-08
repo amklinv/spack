@@ -245,7 +245,7 @@ class Gcc(AutotoolsPackage):
 
         # Binutils
         if spec.satisfies('+binutils'):
-            static_bootstrap_flags = '-static-libstdc++ -static-libgcc'
+            static_bootstrap_flags = '-static-libgcc'
             binutils_options = [
                 '--with-sysroot=/',
                 '--with-stage1-ldflags={0} {1}'.format(

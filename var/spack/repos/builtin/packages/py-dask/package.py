@@ -31,6 +31,7 @@ class PyDask(PythonPackage):
     homepage = "https://github.com/dask/dask/"
     url      = "https://pypi.io/packages/source/d/dask/dask-0.17.4.tar.gz"
 
+    version('0.17.5', '7e0681d656b36b1b4b943d47f0338e5e')
     version('0.17.4', '4a7b9c5d7ddf52639b1c6b9e8a68d146')
     version('0.8.1',  '5dd8e3a3823b3bc62c9a6d192e2cb5b4')
 

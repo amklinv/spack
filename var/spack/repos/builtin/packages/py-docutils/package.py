@@ -46,5 +46,6 @@ class PyDocutils(PythonPackage):
         'docutils.writers.s5_html', 'docutils.writers.xetex'
     ]
 
+    version('0.14',   'c53768d63db3873b7d452833553469de')
     version('0.13.1', 'ea4a893c633c788be9b8078b6b305d53')
     version('0.12',   '4622263b62c5c771c03502afa3157768')

@@ -34,8 +34,9 @@ class PyMarkdown(PythonPackage):
     """
 
     homepage = "https://pythonhosted.org/Markdown/"
-    url      = "https://github.com/waylan/Python-Markdown/archive/2.6.7-final.tar.gz"
+    url      = "https://github.com/Python-Markdown/markdown/archive/2.6.7.tar.gz"
 
+    version('2.6.9', '06a9b4a59199ebe1e96851ca7f300412')
     version('2.6.7', 'fd27044042e197ad99249b3d60215d97')
     version('2.6.6', '2b47a0ff7eb19ef34453fe198a0cccc4')
     version('2.6.5', 'e4b6b65b2d6bcac07176fb209bc55614')

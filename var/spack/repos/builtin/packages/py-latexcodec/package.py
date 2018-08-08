@@ -33,6 +33,7 @@ class PyLatexcodec(PythonPackage):
 
     import_modules = ['latexcodec']
 
+    version('1.0.5', 'd61c2651deb64505918d8c643172559d')
     version('1.0.4', '72010ec2a55227a5802239cff6fd32d6')
 
     depends_on('py-setuptools', type='build')

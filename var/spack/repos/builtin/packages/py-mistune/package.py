@@ -32,6 +32,7 @@ class PyMistune(PythonPackage):
     homepage = "http://mistune.readthedocs.org/en/latest/"
     url      = "https://github.com/lepture/mistune/archive/v0.7.1.tar.gz"
 
+    version('0.7.4', 'd1ba4788047ea6930d27bb2a438ffe6b')
     version('0.7.1', '0d9c29700c670790c5b2471070d32ec2')
     version('0.7', '77750ae8b8d0d584894224a7e0c0523a')
     version('0.6', 'd4f3d4f28a69e715f82b591d5dacf9a6')

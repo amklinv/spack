@@ -31,3 +31,4 @@ class PyGreenlet(PythonPackage):
     url      = "https://pypi.io/packages/source/g/greenlet/greenlet-0.4.13.tar.gz"
 
     version('0.4.13', '6e0b9dd5385f81d478451ec8ed1d62b3')
+    version('0.4.12', 'e8637647d58a26c4a1f51ca393e53c00')

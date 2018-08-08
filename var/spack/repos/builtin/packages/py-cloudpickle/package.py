@@ -34,6 +34,7 @@ class PyCloudpickle(PythonPackage):
     import_modules = ['cloudpickle']
 
     version('0.5.2', 'd0f6fc27882f865f2eb185fb0a32c84b')
+    version('0.4.0', 'b66e7c0839e81de9b5ac84b12e3b0033')
 
     depends_on('py-setuptools', type='build')
 

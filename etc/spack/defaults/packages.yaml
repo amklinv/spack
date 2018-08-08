@@ -14,6 +14,36 @@
 #   ~/.spack/packages.yaml
 # -------------------------------------------------------------------------
 packages:
+  openmpi:
+    modules:
+      openmpi@2.1.2%gcc@4.8.5: mpi/gcc_openmpi
+    buildable: false
+  py-backports-functools-lru-cache:
+    version: [1.4]
+  py-cffi:
+    version: [1.11.1]
+  py-cloudpickle:
+    version: [0.4.0]
+  py-cython:
+    version: [0.27.1]
+  py-flake8:
+    version: [3.4.1]
+  py-flask-cors:
+    version: [3.0.3]
+  py-gevent:
+    version: [1.2.2]
+  py-gitpython:
+    version: [2.1.7]
+  py-graphviz:
+    version: [0.8.1]
+  py-greenlet:
+    version: [0.4.12]
+  py-llvmlite:
+    version: [0.21.0]
+  py-matplotlib:
+    version: [2.1.2]
+  py-mpi4py:
+    version: [2.0.0]
   all:
     compiler: [gcc, intel, pgi, clang, xl, nag]
     providers:

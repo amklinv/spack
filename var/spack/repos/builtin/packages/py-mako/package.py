@@ -32,6 +32,7 @@ class PyMako(PythonPackage):
     homepage = "https://pypi.python.org/pypi/mako"
     url = "https://pypi.io/packages/source/M/Mako/Mako-1.0.1.tar.gz"
 
+    version('1.0.7', '5836cc997b1b773ef389bf6629c30e65')
     version('1.0.4', 'c5fc31a323dd4990683d2f2da02d4e20')
     version('1.0.1', '9f0aafd177b039ef67b90ea350497a54')
 

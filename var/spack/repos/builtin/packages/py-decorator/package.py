@@ -32,6 +32,7 @@ class PyDecorator(PythonPackage):
     homepage = "https://github.com/micheles/decorator"
     url      = "https://pypi.io/packages/source/d/decorator/decorator-4.0.9.tar.gz"
 
+    version('4.1.2', 'a0f7f4fe00ae2dde93494d90c192cf8c')
     version('4.0.9', 'f12c5651ccd707e12a0abaa4f76cd69a')
 
     depends_on('py-setuptools', type='build')

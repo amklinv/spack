@@ -31,6 +31,7 @@ class PyCoverage(PythonPackage):
     homepage = "http://nedbatchelder.com/code/coverage/"
     url      = "https://pypi.io/packages/source/c/coverage/coverage-4.3.4.tar.gz"
 
+    version('4.4.1', '4c4d997cb32be4703f1fde54e6cd1b1c')
     version('4.3.4', '89759813309185efcf4af8b9f7762630')
     version('4.0a6', '1bb4058062646148965bef0796b61efc')
 

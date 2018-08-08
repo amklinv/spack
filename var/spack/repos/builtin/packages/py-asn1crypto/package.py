@@ -22,16 +22,39 @@
 # License along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 ##############################################################################
-
+#
+# This is a template package file for Spack.  We've put "FIXME"
+# next to all the things you'll want to change. Once you've handled
+# them, you can save this file and test your package like this:
+#
+#     spack install py-asn1crypto
+#
+# You can edit this file again by typing:
+#
+#     spack edit py-asn1crypto
+#
+# See the Spack documentation for more information on packaging.
+# If you submit this package back to Spack as a pull request,
+# please first remove this boilerplate and all FIXME comments.
+#
 from spack import *
 
 
 class PyAsn1crypto(PythonPackage):
-    """Python ASN.1 library with a focus on performance and a pythonic API """
+    """FIXME: Put a proper description of your package here."""
 
-    homepage = "https://github.com/wbond/asn1crypto"
-    url      = "https://pypi.io/packages/source/a/asn1crypto/asn1crypto-0.22.0.tar.gz"
+    # FIXME: Add a proper url for your package's homepage here.
+    homepage = "http://www.example.com"
+    url      = "https://pypi.io/packages/source/a/asn1crypto/asn1crypto-0.23.0.tar.gz"
 
-    version('0.22.0', '74a8b9402625b38ef19cf3fa69ef8470')
+    version('0.23.0', sha256='0874981329cfebb366d6584c3d16e913f2a0eb026c9463efcc4aaf42a9d94d70')
 
+    # FIXME: Add dependencies if required.
     depends_on('py-setuptools', type='build')
+    # depends_on('py-foo',        type=('build', 'run'))
+
+    def build_args(self, spec, prefix):
+        # FIXME: Add arguments other than --prefix
+        # FIXME: If not needed delete this function
+        args = []
+        return args

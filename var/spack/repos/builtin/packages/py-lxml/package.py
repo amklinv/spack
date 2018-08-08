@@ -32,6 +32,7 @@ class PyLxml(PythonPackage):
     homepage = "http://lxml.de/"
     url      = "https://pypi.io/packages/source/l/lxml/lxml-2.3.tar.gz"
 
+    version('4.0.0', 'c30d7e752cc909c1c0c40bd34153443a')
     version('3.7.3', '075692ce442e69bbd604d44e21c02753')
     version('2.3', 'a245a015fd59b63e220005f263e1682a')
 

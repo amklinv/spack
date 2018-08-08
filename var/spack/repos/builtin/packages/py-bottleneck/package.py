@@ -30,6 +30,7 @@ class PyBottleneck(PythonPackage):
     homepage = "https://pypi.python.org/pypi/Bottleneck/1.0.0"
     url      = "https://pypi.io/packages/source/B/Bottleneck/Bottleneck-1.0.0.tar.gz"
 
+    version('1.2.1', '7fbe5f1194b2717dd8482da3679c0270')
     version('1.0.0', '380fa6f275bd24f27e7cf0e0d752f5d2')
 
     depends_on('py-setuptools', type='build')

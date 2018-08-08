@@ -31,6 +31,7 @@ class PyJupyterClient(PythonPackage):
     homepage = "https://github.com/jupyter/jupyter_client"
     url      = "https://github.com/jupyter/jupyter_client/archive/4.4.0.tar.gz"
 
+    version('5.1.0', 'ee075f4c02f3b4d6bcd4284a6c81d015')
     version('4.4.0', 'a0bd6fe6ba7c504fbc962a88a2a56a90')
     version('4.3.0', '257d9f5429dac4d9511db84d201d3a9e')
     version('4.2.2', '988ea87554215a83c6ad52e554d8d8c4')

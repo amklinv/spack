@@ -31,6 +31,7 @@ class PyFutures(PythonPackage):
     homepage = "https://pypi.python.org/pypi/futures"
     url      = "https://pypi.io/packages/source/f/futures/futures-3.0.5.tar.gz"
 
+    version('3.1.1', '77f261ab86cc78efa2c5fe7be27c3ec8')
     version('3.0.5', 'ced2c365e518242512d7a398b515ff95')
 
     depends_on('py-setuptools', type='build')

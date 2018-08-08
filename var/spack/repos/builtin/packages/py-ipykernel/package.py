@@ -31,6 +31,7 @@ class PyIpykernel(PythonPackage):
     homepage = "https://pypi.python.org/pypi/ipykernel"
     url      = "https://github.com/ipython/ipykernel/archive/4.5.0.tar.gz"
 
+    version('4.6.1', '7fdff19d6d687a993052dc6a31a78560')
     version('4.5.0', 'ea6aaf431b100452905aaca208edac72')
     version('4.4.1', 'c0033e524aa9e05ed18879641ffe6e0f')
     version('4.4.0', '8e626a1708ceff83412180d2ff2f3e57')
@@ -48,3 +49,4 @@ class PyIpykernel(PythonPackage):
     depends_on('py-ipython@4.0:', type=('build', 'run'))
     depends_on('py-jupyter-client', type=('build', 'run'))
     depends_on('py-pexpect', type=('build', 'run'))
+    depends_on('py-dateutil', type=('build', 'run'), when='@4.6.1')

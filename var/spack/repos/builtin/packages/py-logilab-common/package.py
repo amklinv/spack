@@ -30,6 +30,7 @@ class PyLogilabCommon(PythonPackage):
     homepage = "https://www.logilab.org/project/logilab-common"
     url      = "https://pypi.io/packages/source/l/logilab-common/logilab-common-1.2.0.tar.gz"
 
+    version('1.4.1', 'e1419b1e73caf63a2c3125fc567ac113')
     version('1.2.0', 'f7b51351b7bfe052746fa04c03253c0b')
 
     extends('python', ignore=r'bin/pytest')

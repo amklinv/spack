@@ -22,15 +22,39 @@
 # License along with this program; if not, write to the Free Software
 # Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 ##############################################################################
+#
+# This is a template package file for Spack.  We've put "FIXME"
+# next to all the things you'll want to change. Once you've handled
+# them, you can save this file and test your package like this:
+#
+#     spack install py-cpuinfo
+#
+# You can edit this file again by typing:
+#
+#     spack edit py-cpuinfo
+#
+# See the Spack documentation for more information on packaging.
+# If you submit this package back to Spack as a pull request,
+# please first remove this boilerplate and all FIXME comments.
+#
 from spack import *
 
 
 class PyCpuinfo(PythonPackage):
-    """Get CPU info with pure Python 2 & 3"""
+    """FIXME: Put a proper description of your package here."""
 
-    homepage = "https://github.com/workhorsy/py-cpuinfo"
-    url      = "https://pypi.io/packages/source/p/py-cpuinfo/py-cpuinfo-0.2.3.tar.gz"
+    # FIXME: Add a proper url for your package's homepage here.
+    homepage = "http://www.example.com"
+    url      = "https://pypi.io/packages/source/p/py-cpuinfo/py-cpuinfo-4.0.0.tar.gz"
 
-    version('0.2.3', '780ff46a0e122af09cb2c40b2706c6dc')
+    version('4.0.0', sha256='6615d4527118d4ea1db4d86dac4340725b3906aa04bf36b7902f7af4425fb25f')
 
+    # FIXME: Add dependencies if required.
     depends_on('py-setuptools', type='build')
+    # depends_on('py-foo',        type=('build', 'run'))
+
+    def build_args(self, spec, prefix):
+        # FIXME: Add arguments other than --prefix
+        # FIXME: If not needed delete this function
+        args = []
+        return args

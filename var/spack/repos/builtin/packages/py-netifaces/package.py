@@ -31,6 +31,7 @@ class PyNetifaces(PythonPackage):
     homepage = "https://bitbucket.org/al45tair/netifaces"
     url      = "https://pypi.io/packages/source/n/netifaces/netifaces-0.10.5.tar.gz"
 
+    version('0.10.6', '1d424cb5ef52907c5ab913011122a98b')
     version('0.10.5', '5b4d1f1310ed279e6df27ef3a9b71519')
 
     depends_on('py-setuptools', type='build')

@@ -32,6 +32,7 @@ class PyGevent(PythonPackage):
     url      = "https://pypi.io/packages/source/g/gevent/gevent-1.3a2.tar.gz"
 
     version('1.3a2', '8d73a7b0ceb0ca791b22e6f7b7061e9e')
+    version('1.2.2', '7f0baf355384fe5ff2ecf66853422554')
 
     depends_on('py-setuptools@24.2:',   type='build')
     depends_on('py-cython@0.27:',       type='build')

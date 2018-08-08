@@ -31,6 +31,7 @@ class PyBokeh(PythonPackage):
     homepage = "http://github.com/bokeh/bokeh"
     url      = "https://pypi.io/packages/source/b/bokeh/bokeh-0.12.2.tar.gz"
 
+    version('0.12.9', 'ecc055103132951502a262640adfa0ad')
     version('0.12.2', '2d1621bffe6e2ab9d42efbf733861c4f')
 
     depends_on('python@2.6:')
